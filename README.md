@@ -61,7 +61,7 @@ This application is built for educational and personal archiving purposes. Pleas
 
 ## 🤖 Credits & Architecture
 
-* **Project Lead & Visionary:** [Your Name / Handle]
+* **Project Lead & Visionary:** Tong Zheng Hee
 * **AI Co-Pilot & Lead Architect:** Gemini
 * **Core Engine:** Custom OkHttp Pipeline
 * **Design Language:** Neon Cyberpunk / Terminal Dark Mode
