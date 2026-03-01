@@ -1,6 +1,6 @@
-# ⚡ CYBER-X DOWNLOADER ⚡
+# X Video Downloader
 
-A fully functional, cyberpunk-themed Android application designed to extract and archive MP4 video data streams directly from X (formerly Twitter). Built with a custom OkHttp network engine to bypass system restrictions, featuring a neon-infused UI, glitch animations, and an integrated media player.
+A fully functional Android application designed to extract and archive MP4 video data streams directly from X (formerly Twitter). Built with a custom OkHttp network engine to bypass system restrictions, featuring a neon-infused UI, glitch animations, and an integrated media player.
 
 ## 🚀 Features
 
@@ -28,12 +28,12 @@ This project runs on the **Twitter Downloader API** by JustMobi via RapidAPI.
 ### Step 2: Configure the App Vault
 Once you have cloned this repository into Android Studio, you need to create the secure configuration file to hold your key.
 
-1. Navigate to your main code directory: `app/src/main/java/com/your/package/name/`
+1. Navigate to your main code directory: `app/src/main/java/com/example/x_video_downloader/`
 2. Create a new Kotlin Object file named `ApiConfig.kt`.
 3. Paste the following code into the file and insert your copied key:
 
 ```kotlin
-package com.your.package.name // Ensure this matches your project's package name
+package com.example.x_video_downloader
 
 object ApiConfig {
     // Insert your RapidAPI key here:
@@ -55,11 +55,13 @@ object ApiConfig {
 
 ## ⚠️ Disclaimer
 
-This application is built for educational and personal archiving purposes. Please respect copyright laws and the terms of service of X when downloading media.
+This application is built for educational and personal archiving purposes. Please respect copyright laws and the terms of service of X when downloading media. 
+
+---
 
 ## 🤖 Credits & Architecture
 
-* **Project Lead & Visionary:** [Tong Zheng Hee]
+* **Project Lead & Visionary:** [Your Name / Handle]
 * **AI Co-Pilot & Lead Architect:** Gemini
 * **Core Engine:** Custom OkHttp Pipeline
 * **Design Language:** Neon Cyberpunk / Terminal Dark Mode
