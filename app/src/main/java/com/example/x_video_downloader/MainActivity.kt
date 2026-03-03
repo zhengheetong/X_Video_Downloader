@@ -156,6 +156,14 @@ class MainActivity : AppCompatActivity() {
                     runOnUiThread {
                         Toast.makeText(this@MainActivity, "ARCHIVED: /Downloads/X_Downloader", Toast.LENGTH_LONG).show()
                         refreshHistory()
+
+                        // THE FIX: Tell the Android Gallery to scan and index the new video!
+                        android.media.MediaScannerConnection.scanFile(
+                            this@MainActivity,
+                            arrayOf(file.absolutePath),
+                            arrayOf("video/mp4"),
+                            null
+                        )
                     }
                 } catch (e: Exception) {
                     runOnUiThread { Toast.makeText(this@MainActivity, "SAVE_ERROR", Toast.LENGTH_LONG).show() }
